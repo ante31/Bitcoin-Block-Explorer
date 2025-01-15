@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.site-container{
+  min-height: 100vh;
+  width: 100%; /* Ensure it fits within the viewport */
+}
+
+main{
+  flex: 1;
+}
+
+.small-text {
+  font-size: 0.8rem;
+}
+
+.nowrap{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+
+}
+
+.short {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 1300px) {
+
+  .veryshort{
+    max-width: 250px; 
+
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .veryshort{
+    max-width: 450px; 
+
+  }
+}
+
+@media (max-width: 776px) {
+
+  .veryshort{
+    max-width: 180px; 
+
+  }
+}
+
+@media (max-width: 476px) {
+
+  .veryshort {
+    max-width: 80px; /* Možeš prilagoditi širinu prema potrebama */
+  }
+}
